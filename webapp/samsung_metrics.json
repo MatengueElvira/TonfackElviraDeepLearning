@@ -1,0 +1,38 @@
+{
+  "ticker": "005930.KS",
+  "horizon_jours_ouvres": 20,
+  "derniere_date_connue": "2026-11-26",
+  "dernier_cours": 171300.0,
+  "configuration": "np_ar30_season",
+  "parametres": {
+    "n_lags": 30,
+    "hidden": 0,
+    "season": true,
+    "log": true
+  },
+  "validation": {
+    "mae": 35190.320898437494,
+    "mae_std": 10836.04495842452,
+    "rmse": 40924.71974395256,
+    "mape": 14.676073463478613,
+    "direction": 0.5,
+    "rapport_au_naif": 1.2441279499595723
+  },
+  "test": {
+    "mae": 22276.65,
+    "rmse": 26496.078686774705,
+    "mape": 11.716765131800818,
+    "direction": 1.0,
+    "rapport_au_naif": 0.6563538597525045
+  },
+  "test_naif": {
+    "mae": 33940.0,
+    "rmse": 37570.62682468846,
+    "mape": 17.912248982916775,
+    "direction": 0.0,
+    "rapport_au_naif": 1.0
+  },
+  "couverture_intervalle_test": 0.4,
+  "quick_run": false,
+  "avertissement": "Outil pedagogique. Les cours boursiers sont tres difficiles a predire : ceci n'est pas un conseil d'investissement."
+}

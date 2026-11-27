@@ -1,0 +1,7 @@
+streamlit>=1.40
+torch
+torchvision
+timm
+numpy
+pillow
+matplotlib
