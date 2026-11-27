@@ -1,41 +1,41 @@
 {
-  "arch": "resnet18",
+  "arch": "efficientnet_b0",
   "img_size": 224,
   "dropout": 0.2,
   "norm": null,
   "gray_mean": 0.4794590175151825,
   "gray_std": 0.23418542742729187,
-  "threshold": 0.9933330416679382,
+  "threshold": 0.7689067125320435,
   "target_recall": 0.98,
   "class_names": [
     "NORMAL",
     "PNEUMONIA"
   ],
-  "run_name": "P3_resnet18_lr_x3",
-  "params": 11177538,
+  "run_name": "P2_efficientnet_b0",
+  "params": 4010110,
   "pretrained_weights_used": true,
   "val_metrics": {
-    "auc": 0.9991327141202861,
-    "recall": 0.9961190168175937,
-    "spec": 0.9400749063670412,
-    "f1": 0.9878127004490057,
-    "acc": 0.9817307692307692
+    "auc": 0.9989292168747669,
+    "recall": 0.9896507115135834,
+    "spec": 0.9737827715355806,
+    "f1": 0.9902912621359223,
+    "acc": 0.9855769230769231
   },
   "test_metrics_threshold_0_5": {
-    "auc": 0.9853714661406969,
-    "acc": 0.8573717948717948,
+    "auc": 0.9881934032983508,
+    "acc": 0.8818897637795275,
     "recall": 1.0,
-    "spec": 0.6196581196581197,
-    "precision": 0.81419624217119,
-    "f1": 0.8975834292289988
+    "spec": 0.782608695652174,
+    "precision": 0.7945205479452054,
+    "f1": 0.8854961832061068
   },
   "test_metrics_clinical_threshold": {
-    "auc": 0.9853714661406969,
-    "acc": 0.9342948717948718,
-    "recall": 0.9897435897435898,
-    "spec": 0.8418803418803419,
-    "precision": 0.9125295508274232,
-    "f1": 0.949569495694957
+    "auc": 0.9881934032983508,
+    "acc": 0.9094488188976378,
+    "recall": 1.0,
+    "spec": 0.8333333333333334,
+    "precision": 0.8345323741007195,
+    "f1": 0.9098039215686274
   },
   "disclaimer": "Outil d'aide pédagogique, NON destiné au diagnostic médical."
 }
